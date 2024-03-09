@@ -62,17 +62,14 @@ ul {
   gap: 16px;
 }
 
-#list {
-  text-decoration: none;
+ul {
   list-style: none;
-  color: #ffffff;
 }
 
 a:link {
-    color: #ffffff;
-    text-decoration: none;
-  }
-
+  color: #ffffff;
+  text-decoration: none;
+}
 
 ul li {
   font-size: 0.9rem;
@@ -108,7 +105,6 @@ ul li {
     padding: 40px;
   }
 
-  
   ul :hover {
     background: hsl(75, 94%, 57%);
     border: white;
