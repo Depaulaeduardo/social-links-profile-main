@@ -65,6 +65,7 @@ ul {
 ul {
   list-style: none;
   text-decoration: none;
+  list-style: none;
 }
 
 a:link {
@@ -118,6 +119,7 @@ ul li {
   ul {
     list-style: none;
     text-decoration: none;
+    
   }
   
   a:link {
