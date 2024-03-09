@@ -17,7 +17,7 @@ body {
 }
 
 #card {
-  max-width: 500rem;
+  width: auto;
   background-color: hsl(0, 0%, 12%);
   margin: 0;
   height: fit-content;
@@ -64,11 +64,13 @@ ul {
 
 ul {
   list-style: none;
+  text-decoration: none;
 }
 
 a:link {
   color: #ffffff;
   text-decoration: none;
+  list-style: none;
 }
 
 ul li {
@@ -96,6 +98,8 @@ ul li {
     background: black;
   }
 
+  
+
   #card {
     width: 384px;
     height: fit-content;
@@ -110,4 +114,16 @@ ul li {
     border: white;
     color: hsl(0, 0%, 12%);
   }
+
+  ul {
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+  }
+  
 }
